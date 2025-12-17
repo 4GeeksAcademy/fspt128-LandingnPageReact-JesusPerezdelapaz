@@ -1,11 +1,46 @@
-/* 
+body {
+    background-image: url("https://external-preview.redd.it/monster-hunter-wilds-all-hunter-profile-backgrounds-v0-V5XsT9xSSbcixAvu3KvYMIn67CDict1QxwmAMa-HU2k.jpg?auto=webp&s=f4fde09ae01afffe0e1efc32c292ce8b371ef658");
+    
+    
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.jumbotron {
+    background-image: url("https://i.imgur.com/GN8IuIq.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    max-height: fit-content;
+}
 
-*/
+
+.highlighted-text {
+    position: relative;
+    display: inline-block;
+
+}
+
+.highlighted-text::before {
+    content: '';
+    position: absolute;
+    top: 45%;
+    left: 0%;
+    right: 0%;
+    height: 60%;
+    background-color: #ff0000;
+    transform: rotate(-0.5deg);
+    z-index: -1;
+    border-radius: 10px;
+    opacity: 0.7;
+}
+
+.titulo {
+    z-index: 2;
+
+}
+
+.descripcion {
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    text-shadow: #ff9090 1px 0 10px;
+
+}
